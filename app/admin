@@ -1,0 +1,10 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Adminpanel_coursepreregistration extends Model
+{
+    protected $fillable = ['id','section','course_id','semester_id','student_id','paymentStatus'];
+}
